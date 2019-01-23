@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+	<title>
+		Kodeathon :: 18.9
+	</title>
+	<link rel="shortcut icon" type="image/x-icon" href="./asset/icon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/animate.css">
+	<script>
+		$(document).ready(function(){ 
+        $("#head").fadeIn();   
+});
+	</script>		
+</head>
+<body>
+	<script type="text/javascript">
+		function unHoverQ(element) {
+			// body...
+			element.setAttribute('src','./asset/qstn.png')
+		}
+		function onHoverQ(element) {
+			// body...
+			element.setAttribute('src','./asset/qstnH.png')
+		}
+	</script>
+	<script type="text/javascript" src="hover.js">	</script>
+	<div id="header">
+		<center>
+			<img id="head" src="./asset/name.png" >
+		</center>
+	</div>
+	<div id="content">
+		<center>
+			<div id="rules" style="
+			margin-left:30%;
+			margin-right:30%;
+			margin-top: 80px;
+			padding-top: 20px;
+			height: 200px;
+			width: auto;
+			background-image: url('./asset/back.png');
+			background-opacity: 0.4;
+			border-radius: 80px;">
+			<a href="./asset/RulesandRegulations.pdf" target="_blank">
+				<img style=" margin-top: 10px;margin-top: 10px; height: 40%;width: 30%; " src="./asset/rules.png" onmouseover="onHoverRule(this)" onmouseout="unHoverRule(this)"></a><br>
+				<a href="qstn.html" target="_blank">
+				<img style=" margin-top: 10px;margin-top: 10px; height: 40%;width: 30%; " src="./asset/qstn.png" onmouseover="onHoverQ(this)" onmouseout="unHoverQ(this)">
+				</a>
+			</div>
+		</center>
+	</div>
+</body>

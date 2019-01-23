@@ -1,0 +1,52 @@
+*{
+	margin:0px;
+}
+body{
+	background-image:url("Background.jpeg");
+	height: 100%;
+	background-size: cover;
+	background-repeat: none;
+	background-color: #f1e9d4; 
+	width:100%
+}
+hr{
+	width:75%;
+}
+#head{
+	float: left;
+	height:50%;
+	width: 80%;
+}
+#rules{
+	padding: 100px 0px 0px 100px;
+	height: 800px;
+	width: 800px;
+	background-color: black;
+	opacity: 0.4;
+	border-radius: 200px;
+}
+#header{
+	float:left;
+	width:auto;
+	height:auto;
+}
+#row1{
+	padding-top: 60px;
+}
+.qstn{ 
+	background-color: #F00;
+	border-radius: 100%;
+	cursor: url('./asset/cursor2.png'), auto;
+	padding-left: 80px;
+	padding-right: 80px;
+	height: auto;
+	width: auto;
+	-webkit-transition: all 0.5s;
+}
+
+#q4{
+margin-right: 50px;
+}
+#q6{
+margin-left: 50px;
+}
